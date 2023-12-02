@@ -1,0 +1,68 @@
+body
+{
+    background-color: gray;
+}
+
+span
+{
+    font-weight: bold;
+    width: 20%;
+    display: inline-block;
+    background-color: lightgreen; 
+    border-radius: 3px;
+}
+input
+{
+    width: auto;
+    border-radius: 5px;
+    
+}
+input[type="submit"]
+{
+    width: 100px;
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border:nome;
+}
+input[type="submit"]:hover
+{
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border:nome;
+    cursor:pointer;
+}
+input[type="text"],input[type="password"]
+{
+    width: 75%;
+    color: black;
+}
+input[type="text"]:focus,input[type="password"]:focus
+{
+    width: 75%;
+    color: yellow;
+    border-color: red;
+    background-color: red;
+}
+form
+{
+    background-color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 275px;
+    margin: auto;
+    background-image: url("1.gif");
+    background-position: center;
+    background-size: 30%;
+}
+div:last-child
+{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 50%;
+}

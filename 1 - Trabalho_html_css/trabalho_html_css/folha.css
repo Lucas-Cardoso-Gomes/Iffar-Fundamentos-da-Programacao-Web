@@ -1,0 +1,31 @@
+body{
+    background-image: url("imagens/fundo.jpg");
+    padding-left: 25%;
+    padding-right: 25%;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    FONT-FAMILY: arial;
+    FONT-SIZE: 36px;
+    color: red;
+    text-align: center;
+}
+h2{
+    FONT-FAMILY: arial;
+    FONT-SIZE: 24px;
+    color: red;
+    text-align: center;
+}
+p{
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+.restaurante, .mac{
+    border: 10px solid black; 
+    border-color: black;
+    margin: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Calculadora Simples</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="Expires" content="-1"> 
+    <meta http-equiv="Pragma" content="no-cache"> 
+    <meta http-equiv="Cache-Control" content="no-cache"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="Script.js" ></script>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+</head>
+
+<body>
+<span id="calculator">
+    <!-- Área de exibição do resultado -->
+    <input type="text" id="display" disabled><br>
+
+    <!-- Botões para os dígitos e operações -->
+    <button onclick="appendNumber('1')">1</button>
+    <button onclick="appendNumber('2')">2</button>
+    <button onclick="appendNumber('3')">3</button>
+    <button onclick="setOperation('+')">+</button><br>
+    <button onclick="appendNumber('4')">4</button>
+    <button onclick="appendNumber('5')">5</button>
+    <button onclick="appendNumber('6')">6</button>
+    <button onclick="setOperation('-')">-</button><br>
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="setOperation('*')">*</button><br>
+    <button onclick="appendNumber('0')">0</button>
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="setOperation('/')">/</button>
+</span>
+</body>
+</html>

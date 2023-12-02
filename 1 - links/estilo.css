@@ -1,0 +1,11 @@
+div{
+    border: solid 2px rgb(255, 0, 0);
+    margin-top: 10px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+a{
+    color: midnightblue;
+    font-size: 20px;
+}
